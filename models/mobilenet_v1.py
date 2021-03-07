@@ -5,7 +5,7 @@ import numpy as np
 import cv2
 import keras.backend as K
 import keras.layers as KL
-from depthwise_conv2d import DepthwiseConvolution2D
+from models.depthwise_conv2d import DepthwiseConvolution2D
 from keras.models import Model
 from keras.layers import Input, Lambda, Activation,Conv2D, Convolution2D, MaxPooling2D, ZeroPadding2D, Reshape, Concatenate,BatchNormalization, Add, Conv2DTranspose
 from keras.regularizers import l2
